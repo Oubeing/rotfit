@@ -380,4 +380,4 @@ train_and_save("configs/baseline.json")
 
 ---
 
-**版本**：1.0.0 ｜ **许可**：MIT
+**版本**：1.0.0 ｜ **许可**：[MIT License](LICENSE) · Copyright (c) 2026 Oubeing
