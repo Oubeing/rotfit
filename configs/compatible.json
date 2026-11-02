@@ -1,0 +1,39 @@
+{
+  "data": {
+    "file": "data/angles.csv"
+  },
+  "rotation": {
+    "mode": "discrete",
+    "vectors": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "fixed_axes": {
+      "in": {
+        "2": [
+          1,
+          0,
+          0
+        ]
+      },
+      "out": {}
+    },
+    "fixed_order": {
+      "in": {},
+      "out": {}
+    }
+  },
+  "training": {
+    "epochs": 8000,
+    "learning_rate": 0.001,
+    "sinkhorn_iters": 32,
+    "sinkhorn_temp": 0.5,
+    "device": null
+  },
+  "output": {
+    "result_file": "results/compatible.json"
+  }
+}

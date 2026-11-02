@@ -1,0 +1,12 @@
+# RotFit 依赖清单
+# 安装：python -m pip install -r requirements.txt
+
+torch>=2.0          # 可微优化框架（CPU 版即可运行；有 CUDA 会自动启用 GPU）
+numpy               # 数值计算
+pandas              # 读取 CSV / Excel 数据
+scipy               # 硬置换用匈牙利算法（缺失时自动退化为贪心匹配）
+openpyxl            # 读取 .xlsx 数据
+
+# ===== 可选（部分变体/特性用到，缺失时相应功能降级）=====
+# matplotlib        # 绘图
+# tensorboard       # ultimate 变体的训练可视化

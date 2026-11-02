@@ -1,0 +1,73 @@
+{
+  "data": {
+    "file": "data/angles.csv"
+  },
+  "rotation": {
+    "mode": "continuous",
+    "vectors": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fixed_axes": {
+      "in": {
+        "0": [
+          0,
+          0,
+          1
+        ],
+        "1": [
+          0,
+          1,
+          0
+        ],
+        "2": [
+          1,
+          0,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1
+        ]
+      },
+      "out": {
+        "0": [
+          1,
+          0,
+          0
+        ],
+        "1": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "fixed_order": {
+      "in": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3
+      },
+      "out": {
+        "0": 0,
+        "1": 1
+      }
+    }
+  },
+  "training": {
+    "epochs": 5000,
+    "learning_rate": 0.001,
+    "sinkhorn_iters": 32,
+    "sinkhorn_temp": 0.5,
+    "device": null
+  },
+  "output": {
+    "result_file": "results/sanity_continuous.json"
+  }
+}
